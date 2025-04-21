@@ -1,52 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html data-bs-theme="light">
+
 <head>
-<style>
-body {
-    background: lightblue;
-    font-family: Calibri;
-}  
-#content {
-    background: lightblue;
-    min-width: 300px;
-    max-width: 600px;
-    padding: 100px;
-    margin: auto;
-    margin-top: -100px;
-    line-height: 250%;
-}
-h1 {
-    letter-spacing: 3px;
-    font-size: 20px;
-    text-align: center;
-}
-h2 {
-    font-size: 17px;
-    text-align: center;
-}
-h3 {
-    font-size: 15px;
-}
-</style>
-</head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/pikaday.min.css">
+</head>
+
 <body>
-    <div id="content">
-        <h1>Daniel Wokaty</h1>
-        <h2>Junior in Greenville, South Carolina</h2>
-        
-         <p>I am a Junior at Bob Jones University studying Business Administration with a focus in Finance.</p>
-         <p>
-            I attend Hampton Park Baptist Church. My favorite website is  
-            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">here</a>, and you can email me  
-            <a href="danielrwok@hotmail.com">here</a>.
-         </p> 
-         <p>
-            I enjoy listening to Biblical podcasts, country music, and hanging out with people.
-         </p>
-        <h3>EDUCATION</h3>
-        Business Administration (Finance)<br />
-        Bob Jones University<br />
-        Example image:
-        <img src="https://www.bju.edu/images/logos/logo-main-white.svg" />
-    </div>
+    <nav class="navbar navbar-expand-lg fixed-top portfolio-navbar gradient navbar-dark">
+        <div class="container"><a class="navbar-brand logo" href="#"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="portfolio-block block-intro"><img src="assets/img/avatars/My%20Face.jpg" width="273" height="336" class="pb-3">
+            <div class="container">
+                <p>Hi! I am <strong>Daniel Wokaty</strong>. I am a student at Bob Jones University studying Business Administration with a Finance focus.&nbsp;</p>
+                <div class="about-me"></div>
+            </div>
+        </section>
+        <section class="portfolio-block photography"></section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2>Long-Term Goals</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><img src="assets/img/avatars/editable-design-icon-of-circular-saw-vector.jpg" width="119" height="119"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Custom Furniture Business</h3>
+                                <p class="card-text">After graduation from Bob Jones, my goal is to start a woodworking business where I can make high-end furniture.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><img src="assets/img/Homework%20Stuffs.jpg" width="258" height="144"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Buy A House</h3>
+                                <p class="card-text">In the next 5 years, I would love to buy a house with a decent down payment.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><img src="assets/img/Truck.jpg" width="157" height="153"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Buy A Truck</h3>
+                                <p class="card-text">That's it. I want a truck :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="portfolio-block website gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                    <h3>Church</h3>
+                    <p>I currently attend Hampton Park Baptist Church, and occasionally visit my parents at their church: Iglesia Bautista De La Fe.</p>
+                    <h3>Work</h3>
+                    <p>I currently work two part time jobs: Public Safety here at Bob Jones, and&nbsp;Generation Roofing - a local Christian-owned roofing company. In addition, I will be serving as a camp counselor at Camp Chetek this summer.</p>
+                    <h3>Hobbies</h3>
+                    <p>I enjoy building things out of wood, playing table tennis, and spending time with people. Some of my favorite group activities are hiking, volleyball, and Super Smash Bros.</p>
+                    <h3>Fun Facts About Me</h3>
+                    <p>I grew up in Mexico as a Missionary Kid! Another fun fact is that I love flipping balisongs (aka butterfly knives)</p>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="portfolio-laptop-mockup">
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer py-3 border-top">
+        <div class="container my-4">
+            <div class="links"></div>
+            <div class="social-icons"></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
+
 </html>
